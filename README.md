@@ -2,7 +2,7 @@
 
 A robust, intelligent multi-agent system designed to process queries, reason through complex data with chain-of-thought capabilities, and ensure strict compliance with data regulations like HIPAA and GDPR.
 
-## 🚀 Features
+## Features
 
 - **Multi-Agent Architecture**: Leverages specialized agents for distinct tasks:
   - **Retrieval Agent**: Efficiently fetches and aggregates data based on user queries.
@@ -13,7 +13,7 @@ A robust, intelligent multi-agent system designed to process queries, reason thr
 - **Comprehensive Analytics**: Generate system health scores, compliance rates, and processing metrics.
 - **Batch Processing**: Support for handling multiple queries asynchronously and evaluating efficiency scores.
 
-## 📋 Prerequisites
+## Prerequisites
 
 Ensure you have Python 3.8+ installed. The project relies on the following key dependencies:
 - `requests`
@@ -21,7 +21,7 @@ Ensure you have Python 3.8+ installed. The project relies on the following key d
 - `pytest` & `pytest-cov` (for testing)
 - `psutil`
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -40,7 +40,7 @@ Ensure you have Python 3.8+ installed. The project relies on the following key d
    pip install -r requirements.txt
    ```
 
-## 💻 Usage
+## Usage
 
 The primary entry point for the application is `run_system.py`. You can run the system in several different modes:
 
@@ -62,7 +62,7 @@ Execute a comprehensive demonstration of the system's full capabilities, includi
 python run_system.py demo
 ```
 
-## 🧪 Testing
+## Testing
 
 To run the test suite and check code coverage, ensure you have installed the testing dependencies (`pytest`, `pytest-cov`), then run:
 
@@ -70,7 +70,7 @@ To run the test suite and check code coverage, ensure you have installed the tes
 pytest tests/ -v
 ```
 
-## 🏗️ Architecture Summary
+## Architecture Summary
 
 1. **Query Input**: The user provides a query string.
 2. **Retrieval**: The Retrieval Agent fetches relevant data.
@@ -79,6 +79,6 @@ pytest tests/ -v
 5. **Memory Logging**: The Memory System logs the interaction, learns from patterns, and updates system analytics.
 6. **Result Delivery**: A structured response, complete with performance metrics and compliance status, is returned to the user.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
