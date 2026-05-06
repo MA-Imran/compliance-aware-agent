@@ -1,0 +1,29 @@
+COMPLIANCE-AWARE MULTI-AGENT SYSTEM ARCHITECTURE
+==================================================
+
+[User Interface Layer]
+        |
+        v
+[Orchestration Layer] - EnhancedComplianceAwareAgentSystem
+        |
+        +----------------+-----------------+
+        |                |                 |
+        v                v                 v
+[Retrieval Agent]  [Reasoning Agent]  [Compliance Agent]
+        |                |                 |
+        v                v                 v
+[External APIs]   [Analysis Engine]  [Regulatory Rules]
+        |                |                 |
+        +----------------+-----------------+
+        |
+        v
+[Memory System] - SQLite Database
+        |
+        v
+[Learning & Feedback Loop]
+
+THINK-ACT-LEARN-GOVERN CYCLE:
+Think  -> Reasoning Agent analyzes data
+Act   -> Retrieval Agent fetches data  
+Learn -> Memory System captures patterns
+Govern -> Compliance Agent ensures rules
