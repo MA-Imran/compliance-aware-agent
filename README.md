@@ -82,3 +82,5 @@ pytest tests/ -v
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+Modified and extended by Muhammad Abdullah.
